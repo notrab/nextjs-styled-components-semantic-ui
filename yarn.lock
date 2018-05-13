@@ -605,6 +605,13 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@quickbaseoss/babel-plugin-styled-components-css-namespace@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@quickbaseoss/babel-plugin-styled-components-css-namespace/-/babel-plugin-styled-components-css-namespace-0.0.10.tgz#24027bd870c4527d1b9d7503e77da640ec9dfe10"
+  dependencies:
+    babel-plugin-styled-components "1.5.1"
+    babel-types "6.26.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -797,7 +804,7 @@ babel-plugin-react-require@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-react-require/-/babel-plugin-react-require-3.0.0.tgz#2e4e7b4496b93a654a1c80042276de4e4eeb20e3"
 
-babel-plugin-styled-components@^1.5.1:
+babel-plugin-styled-components@1.5.1, babel-plugin-styled-components@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.5.1.tgz#31dbeb696d1354d1585e60d66c7905f5e474afcd"
   dependencies:

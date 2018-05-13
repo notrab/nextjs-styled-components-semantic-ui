@@ -3,11 +3,9 @@ import { Menu, Container } from 'semantic-ui-react'
 import styled from 'styled-components'
 
 const Nav = styled(Menu)`
-  &&& {
-    background: #409eff;
-    height: 52px;
-    color: #fff;
-  }
+  background: #409eff;
+  height: 52px;
+  color: #fff;
 `
 
 const Logo = styled.img`
@@ -18,10 +16,8 @@ const Logo = styled.img`
 `
 
 const NavItem = styled(Menu.Item)`
-  &&& {
-    a {
-      color: #fff;
-    }
+  a {
+    color: #fff;
   }
 `
 
